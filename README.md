@@ -5,10 +5,8 @@ This repository contains code, notebooks and documentation for Week 2 analysis t
 
 ## Used structure
 .
-├── README.md
-
+├── README.md 
 ├── notebooks/
-
 │   ├── preprocessing_EDA.ipynb
 
 │   ├── sentiment_analysis.ipynb
@@ -27,7 +25,13 @@ This repository contains code, notebooks and documentation for Week 2 analysis t
 
 │   └── sentiment_utils.py
 
+│   └── load_data.py
+
 ├── requirements.txt
+
+├── sql/
+
+│   ├── schema.sql
 
 
 ## Quickstart
