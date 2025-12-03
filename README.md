@@ -6,16 +6,27 @@ This repository contains code, notebooks and documentation for Week 2 analysis t
 ## Used structure
 .
 ├── README.md
+
 ├── notebooks/
+
 │   ├── preprocessing_EDA.ipynb
+
 │   ├── sentiment_analysis.ipynb
+
 │   ├── insert_into_tables.ipynb
+
 │   └── display_results.ipynb
+
 ├── scripts/
+
 │   ├── config.py
+
 │   ├── preprocessing.py
+
 │   ├── scraper.py
+
 │   └── sentiment_utils.py
+
 ├── requirements.txt
 
 
