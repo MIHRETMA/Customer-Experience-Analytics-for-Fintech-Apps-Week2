@@ -4,14 +4,20 @@ Project: Customer experience analytics pipelines, experiments and visualizations
 This repository contains code, notebooks and documentation for Week 2 analysis tasks
 
 ## Used structure
-- README.md
-- notebooks/
-    - preprocessing_EDA.ipynb
-- scripts/
-    - config.py
-    - preprocessing.py
-    - scraper.py
-- requirements.txt
+.
+├── README.md
+├── notebooks/
+│   ├── preprocessing_EDA.ipynb
+│   ├── sentiment_analysis.ipynb
+│   ├── insert_into_tables.ipynb
+│   └── display_results.ipynb
+├── scripts/
+│   ├── config.py
+│   ├── preprocessing.py
+│   ├── scraper.py
+│   └── sentiment_utils.py
+├── requirements.txt
+
 
 ## Quickstart
 1. Clone repository
@@ -22,5 +28,18 @@ This repository contains code, notebooks and documentation for Week 2 analysis t
 
 
 ## Branches
-- Create feature branches, task-1 and task-2
+| Branch     | Purpose                                |
+| ---------- | -------------------------------------- |
+| **task-1** | Data scraping & preprocessing          |
+| **task-2** | Sentiment analysis + thematic clusters |
+| **task-3** | Database creation + data insertion     |
 
+
+## Key Deliverables 
+
+Scraped customer reviews from fintech apps
+Cleaned and preprocessed datasets
+BERT sentiment classification
+Thematic clustering from review text
+Postgres database with banks and reviews tables
+Visualizations comparing sentiment, ratings, banks, and themes
